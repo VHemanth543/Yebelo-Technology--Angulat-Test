@@ -1,0 +1,55 @@
+#content{
+  display : flex;
+  flex-direction: row;
+  height : 100%;
+
+  #category{
+    flex-basis: 20%;
+    background-color : black;
+    border : 2px solid white;
+    display: flex;
+    flex-direction: column;
+
+    #category-list{
+      flex-basis: 10%;
+      background-color : rgb(63 81 181);
+    }
+
+    #item{
+      flex-basis: 90%;
+    }
+  }
+
+  #items{
+    flex-basis: 80%;
+    background-color : rgb(63 81 181);
+    padding: 20px;
+    padding-left: 10px;
+    margin-left: 0px;
+    padding-right: 0px;
+
+
+
+
+    mat-card {
+      background-color : white;
+      width : 200px;
+
+      mat-card-title {
+        color : black;
+        padding : 10px;
+        width : 200px;
+      }
+
+      mat-card-content {
+        background-color : white;
+        color : black;
+
+
+        img{ width : 100px;}
+
+      }
+
+    }
+  }
+}
